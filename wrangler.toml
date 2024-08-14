@@ -4,11 +4,8 @@ name = "server-id" # todo
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
-[[routes]]
-pattern = "support.zoom.us.id1.khasvpn.xyz"
-custom_domain = true
-[[routes]]
-pattern = "apaajalah.com.id2.khasvpn.xyz"
+[[routes]] =
+pattern = "id1.khasvpn.xyz"
 custom_domain = true
 
 [vars]
